@@ -1,15 +1,19 @@
 {
   "name": "sockie-talkie",
-  "version": "0.0.1",
-  "repository": {
-    "type": "git",
-    "url": "https://github.com/cforee/sockie-talkie.git"
+  "version": "0.1.0",
+  "description": "A simple node.js chat app using socket.io",
+  "main": "server.js",
+  "scripts": {
+    "start": "node server.js"
   },
   "dependencies": {
     "socket.io": "*"
   },
   "engines": {
-    "node": "*",
-    "npm": "*"
+    "node": "*"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/cforee/sockie-talkie.git"
   }
 }
