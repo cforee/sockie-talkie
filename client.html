@@ -2,10 +2,10 @@
 <html>
   <head>
     <title>Chat</title>
-    <script src="http://localhost:8080/socket.io/socket.io.js"></script>
+    <script src="http://sockie-talkie.herokuapp.com:8080/socket.io/socket.io.js"></script>
     <script>
       var yourName = prompt('What is your name?');
-      var socket = io.connect('http://localhost:8080');
+      var socket = io.connect('http://sockie-talkie.herokuapp.com:8080');
       socket.on('msg', function(data){
         display(data);
       });
